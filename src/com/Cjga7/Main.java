@@ -17,9 +17,9 @@ public class Main {
         //Cliente laura = new Cliente("1451", "Carlos Peréz", "Cochabamba", "Av. Ayacucho #2231", 74452229);
         //Coche ferrari2 = new Coche ("AH0122","Ferrari","TH800","rojo",200004,"1451");
         //Coche mercedes = new Coche ("AH0142","Ferrari","TH800","rojo",200004,"1451");
-        Cliente beto = new Cliente("15005", "Juan Peréz", "Santa Cruz", "Av.Quinta #2231", 4444512);
-        Coche mercedes = new Coche ("AGH7","Ferrari","TH800","azul",200004,beto);
-        Revision tecnica1 = new Revision("29994","No sirve","Correcto","Cambiados",mercedes);
+        Cliente beto = new Cliente("8989", "Bryan EScalera", "BEni", "Av.Roma ", 12358);
+        Coche mercedes = new Coche ("AGMP78","Ferrari","TH800","azul",200004,beto);
+        Revision tecnica1 = new Revision("5789","sirve","Correcto","Cambiados",mercedes);
 
         ClienteDao clienteDao = new ClienteDao();
         CocheDao cocheDao = new CocheDao();
